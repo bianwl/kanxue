@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/id_tv_post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/about"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/id_imb_user_icon"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="@mipmap/user_default_icon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_post_username"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/app_name"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_post_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="2015-12-24"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_tv_reply_floor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:text="1楼" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_tv_post_reply_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name" />
+
+</LinearLayout>

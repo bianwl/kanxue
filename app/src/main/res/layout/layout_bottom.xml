@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/bottom_shape">
+
+    <RadioButton
+        android:id="@+id/rb_home"
+        style="@style/average_horizon_stylee"
+        android:button="@null"
+        android:checked="true"
+        android:drawableTop="@drawable/forum_home_selector"
+        android:text="@string/forum_home" />
+
+    <RadioButton
+        android:id="@+id/rb_posts"
+        style="@style/average_horizon_stylee"
+        android:button="@null"
+        android:drawableTop="@drawable/forum_posts_selector"
+        android:text="@string/forum_posts" />
+
+    <RadioButton
+        android:id="@+id/rb_safe"
+        style="@style/average_horizon_stylee"
+        android:button="@null"
+        android:drawableTop="@drawable/forum_safe_selector"
+        android:text="@string/forum_safe" />
+
+    <RadioButton
+        android:id="@+id/rb_setting"
+        style="@style/average_horizon_stylee"
+        android:button="@null"
+        android:drawableTop="@drawable/forum_setting_selector"
+        android:text="@string/forum_setting" />
+</RadioGroup>

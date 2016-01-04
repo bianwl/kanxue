@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="top_background">#3385FF</color>
+    <color name="login_pressed_color">#33a0ff</color>
+    <color name="white">#ffffffff</color>
+    <color name="window_background">#f0f0f0</color>
+    <color name="bottom_background">#d8ffffff</color>
+    <color name="divide_line">#d7d7d7</color>
+    <color name="dark_grey">#ababab</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings">
+        <item name="update_version">检测版本</item>
+        <item name="feedback">意见反馈</item>
+        <item name="about">关于看雪</item>
+        <item name="exit">安全退出</item>
+    </string-array>
+</resources>

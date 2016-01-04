@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">看雪论坛</string>
+
+    <!-- tabpages start-->
+    <string name="forum_posts">新帖</string>
+    <string name="forum_home">主页</string>
+    <string name="forum_safe">安全资讯</string>
+    <string name="forum_setting">设置</string>
+    <!-- tabpages end-->
+    <!--settings start -->
+    <string name="visitor">游客</string>
+    <string name="check_version">版本检测</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about">关于看雪</string>
+    <string name="exit">安全退出</string>
+    
+    <string name="posts">发帖数</string>
+    <string name="goodness">精华数</string>
+    <string name="money">金钱数</string>
+    <string name="title">用户头衔</string>
+    <string name="languageId">浏览语音</string>
+    <string name="avatarDate">头像上传时间</string>
+    <string name="code">二维码</string>
+    <string name="noIcon">无</string>
+    <string name="zero">0</string>
+
+    <string name="user_infomation">用户资料</string>
+
+    <string name="input_name">用户名：</string>
+    <string name="input_password">密码：</string>
+    <string name="login">登录</string>
+    <string name="read">查看</string>
+    <string name="reply">回复</string>
+    <string name="comment">评论</string>
+    <string name="comment_hint">期待你的神评论</string>
+    <string name="navigator_expand">点击查看详细内容</string>
+    <string name="navigator_collage">点击查看缩略内容</string>
+    <string name="post_comments">帖子正文</string>
+
+    <string name="isLoading">正在加载数据。。。</string>
+    <string name="kanxue">看雪安全论坛（Android）</string>
+    <string name="version">1.0</string>
+    <string name="introduce">个人主页:</string>
+    <string name="github">https://github.com/bianwl</string>
+    <string name="bbs_address">http://bbs.pediy.com</string>
+    <string name="author_name">bianwl</string>
+    <string name="author">作者：</string>
+    <string name="about_kanxue">很早就想做个看雪论坛客户端，一直没空，也就这么拖着。看雪论坛的api是在网上找的，可是我没看到有注册接口可供调用，所以这个app暂时只能以游客身份进入去查看相关论坛啦</string>
+</resources>

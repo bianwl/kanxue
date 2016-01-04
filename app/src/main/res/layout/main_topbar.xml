@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/top_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:background="@mipmap/kanxue_title"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/forum_home"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/id_imb_edit"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:background="@mipmap/icon_edit"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+
+
+</RelativeLayout>

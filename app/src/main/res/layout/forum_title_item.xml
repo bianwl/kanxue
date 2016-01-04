@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/settings_item_background_selector">
+
+    <TextView
+        android:id="@+id/id_tv_forum_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/listview_content_size"
+        android:gravity="center_vertical"
+        android:drawablePadding="8dp"
+        android:drawableLeft="@mipmap/forum_news"/>
+
+</LinearLayout>

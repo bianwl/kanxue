@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_progressbar"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/id_pullListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/window_background"
+        android:divider="@color/transparent"
+        android:dividerHeight="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_background"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/id_edt_newPost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/reply_shape"
+            android:hint="@string/comment_hint"
+            android:paddingLeft="10dp"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/id_imb_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reply_send_selector" />
+    </LinearLayout>
+</LinearLayout>
